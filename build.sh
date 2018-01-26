@@ -5,7 +5,7 @@ ACCOUNT="wszd/"
 cat list | while read line
 do
   echo "build ${line} ......................."
-  echo "docker pull ${GCR}${line}"
-  echo "docker tag ${GCR}${line} ${ACCOUNT}${line}"
-  echo "docker push ${ACCOUNT}${line}"
+  docker pull ${GCR}${line}
+  docker tag ${GCR}${line} ${ACCOUNT}${line}
+  docker push ${ACCOUNT}${line}
 done
