@@ -1,3 +1,9 @@
 kube-proxy-amd64:v1.4.0
 kubedns-amd64:1.7
 addon-resizer:1.8.1
+kubernetes-dashboard-amd64:v1.7.1
+k8s-dns-dnsmasq-nanny-amd64:1.14.5
+heapster-amd64:v1.4.0
+heapster-grafana-amd64:v4.4.3
+heapster-influxdb-amd64:v1.3.3
+k8s-dns-sidecar-amd64:1.14.5
