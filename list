@@ -1,2 +1,3 @@
 kube-proxy-amd64:v1.4.0
 kubedns-amd64:1.7
+addon-resizer:1.8.1
