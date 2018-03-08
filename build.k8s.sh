@@ -2,7 +2,7 @@
 docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
 GCR="k8s.gcr.io/"
 ACCOUNT="wszd/"
-cat list | while read line
+cat list.k8s | while read line
 do
   echo "build ${line} ......................."
   docker pull ${GCR}${line}
