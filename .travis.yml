@@ -3,3 +3,4 @@ services:
 script:
 - chmod +x build.sh
 - ./build.sh
+- ./build.k8s.sh
